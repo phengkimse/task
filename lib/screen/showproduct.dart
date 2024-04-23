@@ -8,7 +8,7 @@ class ShowProduct extends GetView<InputController> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return  Container(
         child: Center(
       child: Obx(
         () => Column(
@@ -16,7 +16,7 @@ class ShowProduct extends GetView<InputController> {
             Text(
               ' user1=${controller.userInput1}, ',
             ),
-            SizedBox(
+           const SizedBox(
               height: 20,
             ),
             Text(
